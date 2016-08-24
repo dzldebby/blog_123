@@ -1,0 +1,61 @@
+.col-1, .col-2., .col-3 {
+
+	float: left;
+	color: red;
+}
+
+
+
+/*
+Error: Invalid CSS after ".col-1, ,col-2.": expected class name, was ", .col-3"
+        on line 3 of /Users/dlingzl/Desktop/blog/scss/welcome.scss
+
+1: welcome.scss
+2: 
+3: .col-1, ,col-2., .col-3 {
+4: 	
+5: 	float: left;
+6: }
+
+Backtrace:
+/Users/dlingzl/Desktop/blog/scss/welcome.scss:3
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1179:in `expected'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1115:in `expected'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1110:in `tok!'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/static_parser.rb:191:in `class_selector'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/static_parser.rb:159:in `simple_selector_sequence'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/static_parser.rb:112:in `selector'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/static_parser.rb:92:in `selector_comma_sequence'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1093:in `expr!'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/static_parser.rb:20:in `parse_selector'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:425:in `visit_rule'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `block in visit'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `block in with_base'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:115:in `with_frame'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/stack.rb:79:in `with_base'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:158:in `visit'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `block in visit_children'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `map'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:52:in `visit_children'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:167:in `block in visit_children'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:179:in `with_environment'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:166:in `visit_children'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `block in visit'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:186:in `visit_root'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/base.rb:36:in `visit'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:157:in `visit'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/visitors/perform.rb:8:in `visit'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:36:in `css_tree'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/tree/root_node.rb:20:in `render'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:423:in `run'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/sass_scss.rb:63:in `process_result'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:52:in `parse'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/lib/sass/exec/base.rb:19:in `parse!'
+/Users/dlingzl/Applications/CodeKit.app/Contents/Resources/engines/scss/bin/scss:13:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \".col-1, ,col-2.\": expected class name, was \", .col-3\"\A         on line 3 of /Users/dlingzl/Desktop/blog/scss/welcome.scss\A \A 1: welcome.scss\A 2: \A 3: .col-1, ,col-2., .col-3 {\A 4: 	\A 5: 	float: left;\A 6: }"; }
